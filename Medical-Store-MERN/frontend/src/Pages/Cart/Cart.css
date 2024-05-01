@@ -1,0 +1,79 @@
+.cart-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(250, 250, 250);
+}
+.cart-container table {
+	width: 100%;
+	height: 100%;
+}
+.cart-container table thead tr th {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 10px;
+}
+.cart-container table tbody {
+	background-color: rgb(255, 255, 255);
+}
+.cart-container table tbody tr td {
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding: 10px;
+}
+.med-name {
+	border-left: 1px solid transparent !important;
+}
+  
+
+  .add-medicine-container {
+	max-width: 400px;
+	margin-top: 20px;
+	margin-left: 450px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Center items horizontally */
+	justify-content: center; /* Center items vertically */
+  }
+  
+  .add-medicine-container h2 {
+	margin-bottom: 20px;
+  }
+  
+  .add-medicine-container form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .add-medicine-container label {
+	margin-bottom: 8px;
+	padding-right: 40px;
+  }
+  
+  .add-medicine-container input[type="text"],
+  .add-medicine-container input[type="number"],
+  .add-medicine-container input[type="file"] {
+	padding: 8px;
+	margin-bottom: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  .add-medicine-container button {
+	padding: 10px 20px;
+	background-color: darkblue;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .add-medicine-container button:hover {
+	background-color:rgb(65, 172, 204);
+  }

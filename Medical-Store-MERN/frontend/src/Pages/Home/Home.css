@@ -1,0 +1,108 @@
+.home-top-container {
+    width: 100%;
+    padding: 30px 20px; /* Adjusted padding for smaller screens */
+}
+
+.home-banner {
+    width: 100%;
+    padding: 50px; /* Reduced padding for smaller screens */
+    margin-bottom: 50px; /* Reduced margin for smaller screens */
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjusted the height as needed */
+    background-color: #f0f0f0; /* Optional: background color for the banner */
+}
+
+.banner-content {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%;
+}
+
+.banner-content img {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(22, 21, 21);
+    max-width: 80%; /* Adjust max-width as needed */
+}
+
+@media only screen and (max-width: 1115px) {
+    .text-overlay {
+        font-size: 1vw; /* Adjust font size based on viewport width */
+        max-width: 70%; /* Adjust max-width as needed */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text-overlay {
+        font-size: 1vw; /* Adjust font size based on viewport width */
+        max-width: 70%; /* Adjust max-width as needed */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text-overlay {
+        font-size: 1vw; /* Adjust font size based on viewport width */
+        max-width: 70%; /* Adjust max-width as needed */
+    }
+}
+
+
+
+.text-overlay h1,
+.text-overlay p {
+    margin: 0;
+}
+
+.home-banner.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-banner.third h1 {
+    width: 80%; /* Adjusted width for smaller screens */
+    text-align: center;
+    line-height: 1.5; /* Adjusted line-height for better readability */
+}
+
+.third-items {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line on smaller screens */
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.third-items-card {
+    flex: 0 0 calc(50% - 20px); /* Adjusted width for smaller screens */
+    margin: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Optional: Define background colors for different card types */
+.sky {
+    background-image: linear-gradient(to left, skyblue, rgb(143, 223, 255));
+}
+
+.grey {
+    background-image: linear-gradient(to left, rgb(182, 182, 182), rgb(245, 245, 245));
+}
