@@ -79,7 +79,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Authors
 
-- [a-jay262](https://github.com/your-username) - Add your role and contribution here
+- [a-jay262](https://github.com/your-username) - Developer & Manager of this project & repository
 
 ## License
 
