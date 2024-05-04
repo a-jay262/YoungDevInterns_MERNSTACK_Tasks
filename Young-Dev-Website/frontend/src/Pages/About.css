@@ -1,0 +1,161 @@
+/* Home.css */
+.App {
+    text-align: center;
+  }
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set font and background color for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for the header section */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo2 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    height: 40px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .logo2 .logo {
+    margin-right: 10px;
+    height : 40px /* Add right margin to create space between the image and text */
+  }
+  
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  /* Style for the heading section */
+  .heading {
+    text-align: center;
+    padding: 50px 0;
+    color: #030303 !important;
+  }
+
+  .boxf-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:rgb(14, 12, 12);
+  }
+
+.boxf {
+    margin: 10px 10px;
+    padding-top: 10px;
+    width: 200px !important;
+    padding: 8px !important;
+    color:rgb(235, 228, 228);
+    background-color: rgb(206, 205, 205) !important;
+  }
+  
+  .heading h1 {
+    font-size: 36px;
+    color: #000 !important;
+  }
+  
+  /* Style for the about section */
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .image img {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 50px;
+  }
+  
+  .content {
+    max-width: 600px;
+  }
+  
+  .content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the footer section */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 20px;
+  }
+
+  .footer .boxf-container {
+    display: flex;
+    justify-content: space-between;
+    color: #000; /* Change text color to black */
+  }
+  
+  .footer .boxf {
+    flex: 1;
+    margin: 0 10px;
+    color: #000; /* Change text color to black */
+  }
+  
+  .footer .boxf a {
+    border-color: #c41515;
+    color:#000 !important;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .box {
+    width: 30%;
+  }
+  
+  .box h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .box a {
+    color: #111111;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .credit {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  

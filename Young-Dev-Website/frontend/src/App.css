@@ -1,0 +1,329 @@
+.App {
+  text-align: center;
+  margin: 0;
+    padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #eceef1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* App.css */
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  color: #fff;
+}
+.logo2 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    height: 40px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .logo2 .logo {
+    margin-right: 10px;
+    height : 40px; /* Add right margin to create space between the image and text */
+  }
+
+
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+
+/* Index section styles */
+.index {
+  padding: 0px 0;
+  text-align: center;
+}
+
+.index-slider {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide .content {
+  color: #fff;
+}
+
+/* Services section styles */
+.services {
+  padding: 0px 0;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.heading-title {
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color:rgb(14, 12, 12);
+}
+
+.box {
+  margin: 10px 10px;
+  padding-top: 10px;
+  width: 200px !important;
+  padding: 8px !important;
+  color:rgb(235, 228, 228);
+  background-color: rgb(143, 29, 29) !important;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:rgb(14, 12, 12);
+  }
+  
+  
+
+.boxf-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:rgb(14, 12, 12);
+  }
+
+.boxf {
+    margin: 10px 10px;
+    padding-top: 10px;
+    width: 200px !important;
+    padding: 8px !important;
+    color:rgb(235, 228, 228);
+    background-color: rgb(206, 205, 205) !important;
+  }
+  
+.box2 {
+  margin: 50px 10px;
+  padding-top: 100px;
+  color: rgb(24, 20, 20);
+  background-color: rgb(224, 222, 222);
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.box img {
+  width: 100px;
+  background-color: rgb(143, 29, 29);
+}
+
+/* About section styles */
+.index-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.index-about .image img {
+    width: 650px;
+    height: 500px;
+  margin-left: 50px;
+}
+
+.index-about .content {
+  flex: 1;
+  margin-left: 50px;
+  justify-content: center;
+}
+
+.index {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* Adjust the height as needed */
+}
+
+.background {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 100%;
+  height: 85%;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  color: rgb(20, 20, 20); /* Adjust text color as needed */
+}
+.content2 {
+  text-align: center;
+  color: rgb(252, 243, 243); /* Adjust text color as needed */
+}
+
+.content span {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.content2 span {
+  font-size: 24px; /* Adjust font size as needed */
+  font-weight: bold;
+}
+
+.content h3 {
+  font-size: 36px; /* Adjust font size as needed */
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+
+/* Packages section styles */
+.index-packages {
+  padding: 0px 0;
+  text-align: center;
+}
+
+.index-packages .heading-title {
+  margin-bottom: 30px;
+}
+
+.index-packages .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.index-packages .box {
+  margin: 0 10px;
+}
+
+.index-packages .box img {
+  width: 100%;
+}
+
+.load-more {
+  margin-top: 30px;
+}
+
+/* Offer section styles */
+.index-offer {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    min-height: 100vh; /* Set minimum height to 100% of viewport height */
+    text-align: center;
+}
+
+/* Footer section styles */
+.footer {
+    background-color: #333;
+    color: #000; /* Change text color to black */
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .footer .boxf-container {
+    display: flex;
+    justify-content: space-between;
+    color: #000; /* Change text color to black */
+  }
+  
+  .footer .boxf {
+    flex: 1;
+    margin: 0 10px;
+    color: #000; /* Change text color to black */
+  }
+  
+  .footer .boxf a {
+    border-color: #c41515;
+    color:#000 !important;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+.footer .credit {
+  margin-top: 30px;
+}
+
+/* Additional styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #42484e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #8d9196;
+}
+
